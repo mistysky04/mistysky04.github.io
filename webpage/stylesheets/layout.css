@@ -3,7 +3,7 @@
     padding: 0px;
 
     box-sizing: border-box;
-    background-color: #FCE2DB;
+    background-color: #fff5d7;
 }
 
 h1 {
@@ -13,19 +13,19 @@ h1 {
     font-size: 50px;
 
     text-align: center;
-    color: #432C7A; 
+    color: #063970; 
 
     background-color: #ffafc7;
 
     padding: 40px;
-    border-bottom: 6px dotted #432C7A;
+    border-bottom: 6px dotted #063970;
  }
 
 h2 {
     font-family: 'JelleeBold';
     font-weight: normal;
     font-style: normal;
-    color: #80489C;
+    color: #154c79;
 
     margin: 10px 20px 10px 20px;
     
@@ -35,7 +35,7 @@ h3 {
     font-family: 'JelleeBold';
     font-weight: normal;
     font-style: normal;
-    color: #905E96; 
+    color: #1e81b0; 
 
     margin: 10px 20px 10px 40px;
 }
@@ -44,17 +44,17 @@ p, ul {
     font-family: 'JelleeBold';
     font-weight: normal;
     font-style: normal;
-    color: #3F3B6C;
+    color: #063970;
 
-    background-color: #ffafc7;
+    background-color: #ffaaab;
     padding: 20px 10px 20px 10px;
     margin: 20px 30px 20px 30px;
 
-    border: 6px outset #624F82
+    border: 6px outset #ff5e6c
 }
 
 li {
     margin: 30px 40px 30px 40px; 
-    background-color: #ffafc7;
+    background-color: #ffaaab;
     font-size: 18px;
 }
