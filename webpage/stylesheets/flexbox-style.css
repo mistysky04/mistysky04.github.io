@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.socials-container {
+    color: #fff;
+    background-color: #f9e9ec; /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    width: 900px;
+    display: flex;
+    /* Separate each item in the flexbox */
+    justify-content: space-around;
+}
+
+.mail:hover {
+    filter: brightness(130%);
+}
+
+.github:hover {
+    filter: brightness(130%);
+}
+
+.linkedin:hover {
+    filter: brightness(130%);
+}
+
+.header-container {
+    color: #c2f2ff;
+    background-color: #d6e9fe;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* Justify items VERTICALLY in container */
+    align-items: center;
+}
