@@ -4,20 +4,39 @@
     box-sizing: border-box;
 }
 
-.socials-container {
-    color: #fff;
-    background-color: #f9e9ec; /* Blue */
-    padding: 20px 0;
+.header-container {
+    background-color: #F9E9EC;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: fit-content;
+    padding: 20px;
 }
 
-.socials {
-    width: 900px;
+.logo {
     display: flex;
-    /* Separate each item in the flexbox */
-    justify-content: space-around;
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    
+    text-align: center;
+    color: #063970; 
 }
+
+.about {
+    display: flex;
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    
+    text-align: center;
+    color: #063970; 
+}
+
 
 .mail:hover {
     filter: brightness(130%);
@@ -31,18 +50,131 @@
     filter: brightness(130%);
 }
 
-.header-container {
-    color: #c2f2ff;
-    background-color: #d6e9fe;
+
+.main-content-container {
     display: flex;
-    justify-content: center;
+    background-color: #d6e9fe;
+    /* Top/bottom padding */
+    padding: 40px;
+    /* Justify all logos within centre of flexbox */
+    justify-content: space-evenly;
 }
 
-.header {
-    width: 900px;
-    height: 300px;
+.main-content-1 {
     display: flex;
-    justify-content: space-between;
-    /* Justify items VERTICALLY in container */
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #FCE0B1;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    border-radius: 25px;
+}
+
+.main-content-2 {
+    display:flex;
+    padding: 10px;
+    flex-direction: row;
     align-items: center;
+}
+
+.harvard-cs50 {
+    background-color: rgb(247, 210, 135);
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.text-1 {
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    
+    text-align: center;
+    padding: 20px;
+    color: #063970;
+}
+
+.decision-neuro {
+    background-color: #c9d7c1;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 10px;
+
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    
+    text-align: center;
+    color: #063970;
+}
+
+.text-2 {
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    
+    text-align: center;
+    padding: 20px;
+    color: #063970;
+}
+
+.flappy-bird {
+    background-color: #e1ccde;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 10px;
+
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    
+    text-align: center;
+    color: #063970;
+}
+
+.text-3 {
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    
+    text-align: center;
+    padding: 20px;
+    color: #063970;
+}
+
+.finstagram {
+    background-color: #b3e8d4;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 10px;
+
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    
+    text-align: center;
+    color: #063970;
+}
+
+.text-4 {
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    
+    text-align: center;
+    padding: 20px;
+    color: #063970;
 }
